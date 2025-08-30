@@ -1,0 +1,22 @@
+{
+	"name": "osu-make-mod-icons",
+	"version": "0.0.0",
+	"description": "A script to make osu!lazer mod icons with Inkscape",
+	"keywords": [
+		"osu",
+		"lazer",
+		"mod",
+		"icon",
+		"inkscape",
+		"script"
+	],
+	"license": "AGPL-3.0-or-later",
+	"type": "module",
+	"scripts": {
+		"start": "node make-pngs.mjs"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+	}
+}
