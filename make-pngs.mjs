@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { spawn } from 'child_process';
 import { resolve } from 'path';
 
@@ -19,7 +19,7 @@ const templateFile = resolve(currentDir, process.env.TEMPLATE || 'template.svg')
 const dpi = process.env.DPI || 96;
 
 try {
-  fs.mkdirSync(exportDir, { recursive: true });
+  mkdirSync(exportDir, { recursive: true });
 
   // Read the mods data
   const modsDataRaw = readFileSync(modsFile, 'utf8');
