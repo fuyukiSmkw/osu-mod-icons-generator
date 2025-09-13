@@ -4,6 +4,11 @@
     "RulesetID": 0,
     "Mods": [
       {
+        "Acronym": "NM",
+        "Name": "No Mod",
+        "Type": "System"
+      },
+      {
         "Acronym": "EZ",
         "Name": "Easy",
         "Description": "Larger circles, more forgiving HP drain, less accuracy required, and extra lives!",
